@@ -1,0 +1,26 @@
+{
+  "name": "map-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianchengc/map-search.git"
+  },
+  "author": "tianchengc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianchengc/map-search/issues"
+  },
+  "homepage": "https://github.com/tianchengc/map-search#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "express": "^4.17.1",
+    "lunr": "^2.3.9"
+  }
+}
